@@ -1,2 +1,4 @@
-# csd-340
-CSD340 - Web Development with HTML and CSS | Bellevue University
+# CSD 340 Web Development with HTML and CSS
+## Contributors
+.. * Professor Chris Soriano
+.. * Charlene Centeno
