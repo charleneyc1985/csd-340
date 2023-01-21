@@ -1,1 +1,54 @@
+h1 {
+  text-align: center;
+  font-family: Oswald, Verdana, Arial, sans-serif;
+}
 
+#left {
+  font-family: Oswald, Verdana, Arial, sans-serif;
+  border: 1px solid red;
+  padding: 10px;
+  border-radius: 15px;
+  width: 45%; 
+  float: left;
+}
+
+#right {
+  font-family: Oswald, Verdana, Arial, sans-serif;
+  border: 1px dashed red;
+  padding: 10px;
+  border-radius: 15px;
+  width: 45%; 
+  float: right;
+}
+
+h3 {
+  font-weight: 500;
+}
+
+ol {
+  font-weight: 300;
+  list-style-position: inside;
+}
+
+ul {
+  font-weight: 300;
+  list-style: upper-roman inside;
+}
+
+a:link {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+#link {
+  width: 100%;
+  margin-top: 60%;
+  font-family: Oswald, Verdana, Arial, sans-serif;
+}
+p.container {
+  float: right;
+  margin-bottom: 20px;
+}
