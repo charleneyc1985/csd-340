@@ -104,8 +104,7 @@
                 <td>
                     Before Disney and my newfound love for tech, music was my passion, and I worked
                     for KROQ, a local rock station, in the promotions and events department for a few years, 
-                    after graduating with my first degree in Communications. I met my husband Jesse here, who
-                    also worked for the station.
+                    after graduating with my first degree in Communications.
                 </td>                    
                 </tr>
                 </table>
@@ -119,21 +118,24 @@
         <div class="card">
             <h2 id="contact">Contact</h2>
         </div>
-            <div class="card-content">
-                <p>
-                Charlene Centeno<br>
-                <a href="mailto:ccenteno@my365.bellevue.edu">ccenteno@my365.bellevue.edu</a>
-                </p>
-                <a class="button" href="mailto:ccenteno@my365.bellevue.edu">Send Message</a>
-            </div>
+        <form action="mailto:ccenteno@my365.bellevue.edu" method="post" enctype="text/plain">
+        <input type="text" id="fname" name="firstname" placeholder="First Name">
+        <br>
+        <input type="text" id="lname" name="lastname" placeholder="Last Name">
+        <br>
+        <input type="text" id="email" name="email" placeholder="Email Address">
+        <br>
+        <textarea id="message" name="message" placeholder="Message" style="height:200px"></textarea>
+        <br><br>
+        <input type="submit" value="Send Message"/>
+      </form>
     </div>
 
-    <footer>
-        (c) 2023 Charlene Centeno
-    </footer>
+<footer>
+    (c) 2023 Charlene Centeno
+</footer>
 
 </div>
-
 
 
 </body>
